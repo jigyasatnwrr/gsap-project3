@@ -7,10 +7,8 @@ import Projects from './pages/Project';
 const App = () => {
   return (
     <>
-    <div className=' text-3xl font-bold text-blue-500'>
-      <Link to="/">home</Link>
-      <Link to="/agence">Agence</Link>
-      <Link to="/projects">Projects</Link>
+    <div className=' text-white'>
+      
 
       <Routes>
         <Route path="/" element={<Home />} /> 
